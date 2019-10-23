@@ -93,7 +93,7 @@
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                     <input type="button" value="Home" onclick="self.location.href='{{route('home.index')}}'"/>
-                    <a></a>
+                    <a> </a>
                     <input type="button" value="News" onclick="self.location.href='{{route('news.index')}}'"/>
                 </div>
             </div>
