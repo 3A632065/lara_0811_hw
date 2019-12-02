@@ -8,6 +8,6 @@ class NewsController extends Controller
 {
     public function index()
     {
-        return view('home');     //設定回傳預設首頁
+        return view('news');
     }
 }
