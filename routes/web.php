@@ -15,24 +15,12 @@ Route::get('/',['as'=>'home.index','uses'=> 'HomeController@index']);
 
 Route::get('/about',['as'=>'about.index','uses'=> 'AboutController@index']);
 
-Route::get('/news',['as'=>'home.index','uses'=> 'NewsController@index']);
+Route::get('/news',['as'=>'news.index','uses'=> 'NewsController@index']);
 
 /*Route::get('/', function () {
     return view('home');
 });*/
 
-
-Route::get('/',['as'=>'home.index',function(){
-    return view('home');
-}]);
-
-Route::get('/about',['as'=>'about.index',function(){
-    return view('about');
-}]);
-
-Route::get('/news',['as'=>'news.index',function(){
-    return view('news');
-}]);
 
 
 
